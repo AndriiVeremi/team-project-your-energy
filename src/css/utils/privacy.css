@@ -1,0 +1,23 @@
+.policy-page {
+  padding-bottom: 40px;
+}
+
+.policy-title {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.policy-text {
+  font-size: 16px;
+  line-height: 1.71;
+}
+
+.policy-text-decor {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.8;
+  letter-spacing: -0.4px;
+}
