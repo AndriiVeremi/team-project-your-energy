@@ -73,7 +73,7 @@ body.dark_mode .pag__page {
 
 .pag__page--current-number {
   flex-shrink: 0;
-  color: var(--color-primary);
+  color: var(--color-rating);
   width: 45px;
   height: 45px;
   border: 1px solid var(--color-primary);
@@ -81,7 +81,6 @@ body.dark_mode .pag__page {
 }
 
 body.dark_mode .pag__page--current-number {
-  color: var(--color-rating);
   border: 1px solid var(--darkmode-secondary);
 }
 

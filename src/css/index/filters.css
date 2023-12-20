@@ -82,11 +82,6 @@ body.dark_mode .filter-btn:hover {
   color: var(--color-rating);
 }
 
-/* body.dark_mode .active::after {
-  background-color: var(--color-rating);
-  color: var(--color-primary);
-} */
-
 body.dark_mode .active {
   color: var(--darkmode-secondary);
 }

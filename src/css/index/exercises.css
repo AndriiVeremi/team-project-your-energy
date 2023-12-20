@@ -39,7 +39,7 @@
 }
 
 .name-exercises {
-  color: var(--color-secondary-heavy);
+  color: var(--color-rating);
   font-size: 12px;
   line-height: 18px;
 }
