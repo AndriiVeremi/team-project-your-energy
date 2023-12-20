@@ -47,8 +47,8 @@ body.dark_mode .button-up:hover > .button-up__icon {
 
   .button-up:hover,
   .button-up:active {
-    color: var(--darkmode-primary);
     border-color: var(--darkmode-secondary);
+    color: var(--color-rating);
   }
 }
 

@@ -77,15 +77,15 @@ body.dark_mode .filter-btn:hover {
   display: block;
   height: 4px;
   flex-shrink: 0;
-  background-color: var(--color-primary);
+  background-color: var(--color-rating);
   position: static;
-  color: var(--color-primary);
+  color: var(--color-rating);
 }
 
-body.dark_mode .active::after {
+/* body.dark_mode .active::after {
   background-color: var(--color-rating);
   color: var(--color-primary);
-}
+} */
 
 body.dark_mode .active {
   color: var(--darkmode-secondary);
@@ -119,14 +119,10 @@ body.dark_mode .cat-title-span {
 
 .cat-title-text {
   margin-bottom: 40px;
-  color: var(--color-primary);
+  color: var(--color-rating);
   font-size: 28px;
   line-height: 38px;
   letter-spacing: -0.56px;
-}
-
-body.dark_mode .cat-title-text {
-   color: var(--color-rating);
 }
 
 @media screen and (min-width: 768px) {
