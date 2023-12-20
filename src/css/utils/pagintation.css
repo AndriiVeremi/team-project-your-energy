@@ -98,7 +98,7 @@ body.dark_mode .pag__page {
 }
 
 body.dark_mode .pag__page--current-number {
-  color: var(--darkmode-secondary);
+  color: var(--color-rating);
   border: 1px solid var(--darkmode-secondary);
 }
 

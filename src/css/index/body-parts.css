@@ -168,13 +168,15 @@
 /* =============== DARK MODE THEME =============== */
 
 body.dark_mode .exercises-item {
-  background-color: var(--darkmode-background);
-  border: 1px solid var(--darkmode-secondary);
+  background-color: var(--darkmode-secondary-light);
+  border: 1px solid var(--darkmode-background);
+  /* border: inherit; */
 }
 
 body.dark_mode .exercises-item:hover,
 body.dark_mode .exercises-item:focus {
-  background-color: var(--darkmode-secondary-light);
+  border: 1px solid var(--color-rating);
+  /* box-shadow: var(--color-rating) 0px 0px 5px 1px; */
 }
 
 body.dark_mode .exercises-text,

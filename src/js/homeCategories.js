@@ -150,7 +150,9 @@ function handlerClickExercises(e) {
   }
 
   const exercise = e.target.closest(".card-exercises").dataset.bodyExercise;
-  span.innerHTML = `<span class="cat-title-text">/</span> ${exercise}`;
+  const UpperCaseExercise = exercise[0].toUpperCase() + exercise.slice(1);
+
+  span.innerHTML = `<span class="cat-title-text">/</span> ${UpperCaseExercise}`;
 
   exerciseState = exercise;
 

@@ -40,6 +40,11 @@ body.dark_mode .button-up {
   animation-duration: 1000ms;
   animation-iteration-count: infinite;
 }
+
+body.dark_mode .button-up:hover > .button-up__icon {
+  color: var(--color-rating);
+}
+
   .button-up:hover,
   .button-up:active {
     color: var(--darkmode-primary);

@@ -82,13 +82,13 @@ body.dark_mode .filter-btn:hover {
   color: var(--color-primary);
 }
 
-body.dark_mode .active {
-  color: var(--darkmode-secondary);
+body.dark_mode .active::after {
+  background-color: var(--color-rating);
+  color: var(--color-primary);
 }
 
-body.dark_mode .active::after {
+body.dark_mode .active {
   color: var(--darkmode-secondary);
-  background-color: var(--darkmode-secondary);
 }
 
 .cat-title {
@@ -126,7 +126,7 @@ body.dark_mode .cat-title-span {
 }
 
 body.dark_mode .cat-title-text {
-  color: var(--darkmode-secondary);
+   color: var(--color-rating);
 }
 
 @media screen and (min-width: 768px) {
