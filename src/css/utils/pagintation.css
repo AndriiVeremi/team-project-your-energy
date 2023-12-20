@@ -82,6 +82,7 @@ body.dark_mode .pag__page {
 
 body.dark_mode .pag__page--current-number {
   border: 1px solid var(--darkmode-secondary);
+  color: var(--color-rating);
 }
 
 .pag__page.hovered {

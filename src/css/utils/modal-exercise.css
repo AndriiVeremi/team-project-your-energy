@@ -56,6 +56,11 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 40px 20px 40px 20px;
   color: var(--color-secondary);
+  /* border: 1px solid var(--color-rating); */
+}
+
+body.dark_mode .modal_window_default_content {
+  border: 1px solid var(--color-rating);
 }
 
 .modal_image {
